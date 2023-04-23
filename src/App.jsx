@@ -1,13 +1,9 @@
-import './App.css';
 import DetectCircle from './questions-answers/DetectCircle';
 
 function App() {
   return (
-    <div>
-      Frontend Interview Questions
-      <div>
-        <DetectCircle />
-      </div>
+    <div style={{width: "100vw", height: '100vh'}}>
+      <DetectCircle />
     </div>
   );
 }
